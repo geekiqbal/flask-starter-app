@@ -31,5 +31,6 @@ def do_some_math():
     return resJson     #returning response
 
 
+#api starting point
 if __name__ == "__main__":
     api.run(debug=True)
